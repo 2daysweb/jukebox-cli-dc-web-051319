@@ -60,10 +60,10 @@ end
 
 def run(songs)
   help()
-
+  u_input = ""
   until(u_input == "exit")
   puts "Please enter a command:"
-  u_input = ""
+ 
   u_input = gets.chomp
   
   case u_input 
