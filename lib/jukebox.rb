@@ -72,7 +72,7 @@ def run(songs)
     list(songs)
   
   when "play"
-    play(sings)
+    play(songs)
     
   else "help"
     help()
